@@ -16,7 +16,10 @@ public class Suma {
     {
     Scanner entrada=new Scanner(System.in);
     
+    System.out.println("Suma\n");
+    System.out.println("Ingrese el primer valor");
     int valor1=entrada.nextInt();
+    System.out.println("Ingrese el segundo valor");
     int valor2=entrada.nextInt();
     
     int suma= valor1+valor2;
