@@ -26,7 +26,7 @@ public class Multiplicacion {
         total = num1 * num2;
 
         System.out.println("El resultado es ==>    " + total);
-        
+     System.out.println("Reacionaaaaaaaaaaaaaaa");
 
     }
 }
