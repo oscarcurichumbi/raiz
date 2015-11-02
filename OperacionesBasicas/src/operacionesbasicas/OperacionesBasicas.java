@@ -16,7 +16,7 @@ public class OperacionesBasicas {
      */
     public static void main(String[] args) {
         Multiplicacion m = new Multiplicacion();
-        //m.multi();
+          m.multi();
         
         Suma aplicacion=new Suma();
         aplicacion.sumar();
