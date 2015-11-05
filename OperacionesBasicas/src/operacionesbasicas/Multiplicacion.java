@@ -27,6 +27,7 @@ public class Multiplicacion {
 
         System.out.println("El resultado es ==>    " + total);
      System.out.println("Reacionaaaaaaaaaaaaaaa");
+     System.out.println("Reacionaaaaaaaaaaaaaaa");
 
     }
 }
