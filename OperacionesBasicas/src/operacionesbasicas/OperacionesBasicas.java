@@ -29,7 +29,7 @@ public class OperacionesBasicas {
         
         RestaDesarrollo res = new RestaDesarrollo();
         res.restar();
-        
+        System.out.println("Fin del trabajo")
         
         
     }
