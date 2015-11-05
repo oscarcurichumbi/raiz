@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author Christian Alarcón
+ * @author Christian Alarcón 
  */
 public class Suma {
     
