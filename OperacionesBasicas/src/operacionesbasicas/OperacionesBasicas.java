@@ -24,6 +24,12 @@ public class OperacionesBasicas {
         Raiz r = new Raiz ();
         r.Raiz();
         
+        Potencia p = new Potencia();
+        p.potenciaa();
+        
+        RestaDesarrollo res = new RestaDesarrollo();
+        res.restar();
+        
         
         
     }

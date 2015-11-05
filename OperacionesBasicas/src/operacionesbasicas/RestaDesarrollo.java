@@ -12,8 +12,10 @@ import java.util.Scanner;
  * @author User
  */
 public class RestaDesarrollo {
+    
       public void restar()
     {
+    System.out.println("==============================================");
     Scanner entrada=new Scanner(System.in);
     
     System.out.println("Resta\n");
@@ -24,6 +26,6 @@ public class RestaDesarrollo {
     
     int resta= valor1-valor2;
     
-    System.out.println("La resta es: "+resta);
+    System.out.println("El resultado de la resta es: "+resta);
     }
 }

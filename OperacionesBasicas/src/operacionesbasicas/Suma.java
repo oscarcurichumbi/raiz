@@ -12,8 +12,10 @@ import java.util.Scanner;
  * @author User
  */
 public class Suma {
+    
       public void sumar()
     {
+   System.out.println("==============================================");
     Scanner entrada=new Scanner(System.in);
     
     System.out.println("Suma\n");
@@ -24,6 +26,6 @@ public class Suma {
     
     int suma= valor1+valor2;
     
-    System.out.println("La suma es: "+suma);
+    System.out.println("El resultado de la suma es: "+suma);
     }
 }

@@ -16,7 +16,8 @@ public class Multiplicacion {
     public void multi() {
         Scanner tecla = new Scanner(System.in);
         int num1, num2, total;
-
+        System.out.println("==============================================");
+     
         System.out.println("Ingrese el numero 1");
         num1 = tecla.nextInt();
 
@@ -25,9 +26,8 @@ public class Multiplicacion {
 
         total = num1 * num2;
 
-        System.out.println("El resultado es ==>    " + total);
-     System.out.println("Reacionaaaaaaaaaaaaaaa");
-     System.out.println("Reacionaaaaaaaaaaaaaaa");
+        System.out.println("El resultado de la  Multiplicacion es ==>    " + total);
+     
 
     }
 }
