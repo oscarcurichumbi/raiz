@@ -5,6 +5,8 @@
  */
 package operacionesbasicas;
 
+import java.util.Scanner;
+
 /**
  *
  * @author oscar
@@ -13,9 +15,15 @@ public class Raiz {
     
     public void Raiz(){
     
-
-    System.out.println("hola");
-    System.out.println("hola");
+    System.out.println("==============================================");
+    double result, val;
+        Scanner num = new Scanner(System.in);
+        System.out.print("Ingrse el numero : ");
+        val = num.nextInt();
+        
+        result = Math.sqrt(val);
+        
+        System.out.println("El resultado de la radicacion  es==>"+result);
     
     }
     

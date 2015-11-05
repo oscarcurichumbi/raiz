@@ -15,7 +15,7 @@ public class Potencia {
 
     public void potenciaa() 
     {
-
+         System.out.println("==============================================");
         double result, a, n;
         Scanner num = new Scanner(System.in);
         System.out.print("Numero (a): ");
