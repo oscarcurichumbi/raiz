@@ -20,8 +20,12 @@ public class OperacionesBasicas {
         
         Suma aplicacion=new Suma();
         aplicacion.sumar();
-        // jajajjaj
-    
+        
+        Raiz r = new Raiz ();
+        r.Raiz();
+        
+        
+        
     }
     
 }
