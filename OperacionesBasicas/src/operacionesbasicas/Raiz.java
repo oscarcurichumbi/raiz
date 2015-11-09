@@ -12,19 +12,21 @@ import java.util.Scanner;
  * @author oscar
  */
 public class Raiz {
-    
-    public void Raiz(){
-    
-    System.out.println("==============================================");
-    double result, val;
-        Scanner num = new Scanner(System.in);
-        System.out.print("Ingrse el numero : ");
-        val = num.nextInt();
-        
-        result = Math.sqrt(val);
-        
-        System.out.println("El resultado de la radicacion  es==>"+result);
-    
-    }
+ 
+Scanner num= new Scanner (System.in);
+int numero,raiz;
+String resultado;
+
+public void ingresedatos(){
+System.out.println("ingrese el numero");
+numero=num.nextInt();
+}
+public void calcular(){
+raiz=(int) Math.sqrt(numero);
+}
+public String Muestradatos(){
+return("la raiz cuadrada de"+numero+"\n\n"+"es: "+raiz+"\n\n");
+
+}
     
 }

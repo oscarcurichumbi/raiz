@@ -22,7 +22,10 @@ public class OperacionesBasicas {
         aplicacion.sumar();
         
         Raiz r = new Raiz ();
-        r.Raiz();
+       
+         r.ingresedatos();
+         r.calcular();
+          System.out.println(r.Muestradatos());
         
         Potencia p = new Potencia();
         p.potenciaa();
