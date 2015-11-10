@@ -25,7 +25,7 @@ public class OperacionesBasicas {
        
          r.ingresedatos();
          r.calcular();
-          System.out.println(r.Muestradatos());
+         System.out.println(r.Muestradatos());
         
         Potencia p = new Potencia();
         p.potenciaa();

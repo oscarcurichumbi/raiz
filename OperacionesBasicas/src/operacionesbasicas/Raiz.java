@@ -25,7 +25,7 @@ public void calcular(){
 raiz=(int) Math.sqrt(numero);
 }
 public String Muestradatos(){
-return("la raiz cuadrada de"+numero+"\n\n"+"es: "+raiz+"\n\n");
+return("la raiz cuadrada de ::::::> "+numero+"\n\n"+"es: "+raiz+"\n\n");
 
 }
     
